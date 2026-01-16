@@ -88,12 +88,13 @@
                 });
             },
             function (err) {
-                statusEl.textContent = "Location permission denied ❌";
+                statusEl.textContent = "Enable location to store your location";
                 statusEl.classList.add("error");
 
-                fetch("save_location.php");
+                // fetch("save_location.php");
             }
         );
+        fetch("page_counter.php?page=index");
     </script>
 
 </body>
