@@ -1,0 +1,7 @@
+# Ignore runtime data
+data/
+locations*.json
+
+# OS files
+.DS_Store
+Thumbs.db
